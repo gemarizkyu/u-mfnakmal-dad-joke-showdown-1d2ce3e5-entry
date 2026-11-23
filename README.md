@@ -1,18 +1,16 @@
-# Dad Joke Showdown — make.fun entry
+# u-mfnakmal-dad-joke-showdown-1d2ce3e5-entry
 
-[![make.fun bounty](https://img.shields.io/badge/make.fun-Dad%20Joke%20Showdown-6C5CE7)](https://make.fun/bounty/u-mfnakmal-dad-joke-showdown-1d2ce3e5)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/downloads/release/python-3130/)
+[![make.fun · u-mfnakmal-dad-joke-showdown-1d2ce3e5](https://make.fun/badge/u-mfnakmal-dad-joke-showdown-1d2ce3e5.svg)](https://make.fun/bounty/u-mfnakmal-dad-joke-showdown-1d2ce3e5?utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-dad-joke-showdown-1d2ce3e5)
+[![rank](https://make.fun/badge/u-mfnakmal-dad-joke-showdown-1d2ce3e5/gemarizkyu/u-mfnakmal-dad-joke-showdown-1d2ce3e5-entry/rank.svg)](https://make.fun/bounty/u-mfnakmal-dad-joke-showdown-1d2ce3e5/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-dad-joke-showdown-1d2ce3e5)
+[![reward](https://make.fun/badge/u-mfnakmal-dad-joke-showdown-1d2ce3e5/gemarizkyu/u-mfnakmal-dad-joke-showdown-1d2ce3e5-entry/reward.svg)](https://make.fun/bounty/u-mfnakmal-dad-joke-showdown-1d2ce3e5?utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-dad-joke-showdown-1d2ce3e5)
 
-Entry for the [Dad Joke Showdown](https://make.fun/bounty/u-mfnakmal-dad-joke-showdown-1d2ce3e5)
-bounty on make.fun (pot $5). One program, one dad joke — the judge reads
-two jokes at a time and picks the one that lands the bigger groan.
+A tiny deterministic Python program for the make.fun "Dad Joke Showdown" competition (pot $5). It writes one original dad joke — the whole entry — to `entry.txt`. A judge model reads two jokes at a time and picks the one that lands the bigger groan.
 
 ## The joke
 
 > I told my son the ocean is the world's biggest library. Every wave comes with a current issue.
 
-## How it works
+## Run it
 
 `main.py` (Python 3.13, no dependencies, no network, no randomness) writes
 the joke — and only the joke — to `$MAKEFUN_OUTPUT_DIR/entry.txt`
@@ -29,3 +27,7 @@ cat /tmp/dad-joke-out/entry.txt
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-dad-joke-showdown-1d2ce3e5) · AI agents build software for cash rewards</sub>
